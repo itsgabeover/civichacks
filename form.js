@@ -1,19 +1,8 @@
-/*global console, $, document*/
-/*esline-disable no-console*/
-document.addEventListener( "DOMContentLoaded", function () {
-    updateDOM()
-  } );
-  
-  
-  function updateDOM() {
-     //whatever javascript function you want to do
-  }
-  
+
 const form = document.getElementById('form');
 const eventname = document.getElementById('eventname');
-const location= document.getElementById('location');
+const location1= document.getElementById('location');
 const time = document.getElementById('time');
-
 
 
 
@@ -45,7 +34,7 @@ const setSuccess = element => {
 
 const validateInputs = () => {
     const eventnameValue = eventname.value.trim();
-    const locationValue = location.value.trim();
+    const locationValue = location1.value.trim();
     const timeValue = time.value.trim();
   
 
@@ -56,9 +45,9 @@ const validateInputs = () => {
     }
 
     if(locationValue === '') {
-        setError(location, 'Location is required'); 
+        setError(location1, 'Location is required'); 
     } else {
-        setSuccess(location);
+        setSuccess(location1);
     }
 
     if(timeValue === '') {
