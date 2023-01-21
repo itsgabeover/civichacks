@@ -15,7 +15,7 @@ html {
     margin: 5px
 }
 
-.container {
+.container1 {
     content: "";
     background-image: linear-gradient(rgba(0,0,0, 0.47), rgba(0,0,0, 0.4)), url(bg-image.png);
     height: 100vh;
