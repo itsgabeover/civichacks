@@ -132,7 +132,7 @@ a:link {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    filter: brightness(80%);
     margin: 1em;
 }
 
@@ -147,7 +147,8 @@ a:link {
 
     display: flex;
     margin: 2em 0;
-    filter:brightness();
+    filter:brightness(120%);
+    /* filter:contrast(180) */
 
 }
 
