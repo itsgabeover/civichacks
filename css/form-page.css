@@ -1,20 +1,15 @@
 body {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     background: #F9E8D4;
 }
 
 
 .container {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5em;
-
 }
 
 .input-control {
@@ -34,7 +29,6 @@ nav {
     height: 90px;
     width: 100%;
     font-size: 20px;
-
     align-content: center;
     justify-content: center;
     padding: 10px;
@@ -166,7 +160,6 @@ html {
 
 #form {
     width: 400px;
-
     padding: 20px;
     padding: top 10px;
     background-color: whitesmoke;
