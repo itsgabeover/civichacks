@@ -13,20 +13,24 @@
 </head>
   
     <body>
-        <nav>
-                <ul>
-                  <div>
-                  <li><a href="home-page.html">Home</a></li>
-                  <li><a href="form.html">Host an Event</a></li>
-                  <li><a href="location-page.html">Location Finder</a></li>
-                  <li><a href="events.html">Events</a></li>
-                  <li><a href="categories.html">Trending Events</a></li>
-                </div>
-                </ul>
-        
-        </nav>
+        <nav id="nav-bar" >
+            <div >
+    
+            <ul>
+              
+              <li><a href="home-page.html">Home</a></li>
+              <li><a href="form.html">Host an Event</a></li>
+              <li><a href="location-page.html">Location Finder</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="categories.html">Trending Events</a></li>
+            
+            </ul>
+            </div>
+           
+          </nav>
+        <div class="bg-img"style="margin-top: -17px;">
         <div class="container">
-            <form id="form" action="/Users/nguye/Desktop/Website_demo/home.html">
+            <form id="form" action="events.html">
                 <h1>Registration</h1>
                 <div class="input-control">
                     <label for="eventname">Event name</label>
@@ -40,13 +44,16 @@
                 </div>
                 <div class="input-control">
                     <label for="time">Time</label>
-                    <input id="time" name="time" type="time">
+                    <input id="time" name="time" type="datetime-local">
                     <div class="error"></div>
                 </div>
                
                 <button id="submit" type="submit">Submit</button>
             </form>
         </div>
+        
+        </div>
+        
         
       
 
