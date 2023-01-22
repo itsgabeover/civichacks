@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     background: #F9E8D4;
 }
 
@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 5em;
-    
+
 }
 
 .input-control {
@@ -27,51 +27,51 @@ body {
 }
 
 nav {
-  
+
     background: black;
     display: flex;
     align-items: center;
     height: 90px;
     width: 100%;
     font-size: 20px;
-    
+
     align-content: center;
     justify-content: center;
     padding: 10px;
     flex-wrap: wrap;
- 
+
 }
 
 
-    nav ul {
-      
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        
-    }
+nav ul {
 
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 25px;
-            font-weight: 500;
-            padding: 10px 15px;
-            border-radius: 5px;
-            letter-spacing: 1px;
-            transition: all 0.3s ease;
-        }
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
 
-        nav ul li::after {
-            content: '';
-            width: 0%;
-            height: 2px;
-            background: white;
-            display: block;
-            margin: auto;
-            transition: 0.3s;
-            border-bottom: 5px;
-        }
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+    border-bottom: 5px;
+}
 
 nav li:hover::after {
     width: 75%;
@@ -79,7 +79,7 @@ nav li:hover::after {
 
 .bg-img {
     content: "";
-    background-image:linear-gradient(rgba(0,0,0, 0.47), rgba(0,0,0, 0.5)) ,url("../img/working.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.5)), url("../img/working.jpg");
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -88,6 +88,7 @@ nav li:hover::after {
     border: 0px;
     z-index: -1;
 }
+
 /* 
 #form {
     display: flex;
@@ -104,7 +105,9 @@ form {
 }
 
 /* Form input styles */
-form input, form textarea, form select {
+form input,
+form textarea,
+form select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -154,17 +157,16 @@ html {
     scroll-behavior: smooth;
 }
 
-.name{
+.name {
     font-size: 40px;
     text-align: center;
     margin: 5px
 }
 
 
-
 #form {
     width: 400px;
-    
+
     padding: 20px;
     padding: top 10px;
     background-color: whitesmoke;
@@ -194,11 +196,11 @@ html {
 
 .input-control input {
     border: 2px solid #f0f0f0;
-	border-radius: 4px;
-	display: block;
-	font-size: 12px;
-	padding: 10px;
-	width: 100%;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
 }
 
 .input-control input:focus {
