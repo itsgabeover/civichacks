@@ -50,10 +50,40 @@ nav ul div li a:hover {
    
   }
 
+  body {
 
-  #type-of-event {
-
-    margin: 1em;
-    background-image: url('../img/music.jpg');
+    background: linear-gradient(#DBA895, #3D3A41) 
   }
+
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  }
+  p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+  }
+
+img{
+  height: 10em;
+  width: 10em;
+  object-fit: cover;
+  border-radius: .5em;
+}
+
+ #music, #sports, #food, #fitness, #drinks, #hobbies, #arts, #health,#music-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  text-decoration: none;
+  color: black;
+
+ }
+ 
+
   
