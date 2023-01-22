@@ -6,6 +6,7 @@ nav ul div li a:hover {
     background-color: #1b1d1d;
     /* Light blue */
     display: flex;
+    
   } 
   nav ul {
     list-style: none;
@@ -15,9 +16,11 @@ nav ul div li a:hover {
   nav ul li {
     margin:0  50px 50px;
     font-size:larger;
+    
   }
   div li{
     float:left;
+    
   }
   nav a {
     color: rgb(160, 148, 148);
@@ -27,5 +30,30 @@ nav ul div li a:hover {
   ul div li {
     float: left;
     padding-left: 70px;
+    list-style: none;
+  }
+
+  .main-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1em;
+  }
+
+  .section-one, .section-two {
+
+    display: flex;
+    margin: 2em 0;
+   
+  }
+
+
+  #type-of-event {
+
+    margin: 1em;
+    background-image: url('../img/music.jpg');
   }
   
