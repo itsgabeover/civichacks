@@ -154,3 +154,24 @@ a:link {
     margin: 1em;
     background-image: url('../img/music.jpg');
 }
+
+img {
+
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    margin: 2em;
+
+}
+
+p {
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+#trending {
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
