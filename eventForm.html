@@ -29,7 +29,7 @@
                 </div>
                 <div class="input-control">
                     <label for="time">Time</label>
-                    <input id="time"name="time" type="text">
+                    <input id="time"name="time" type="datetime-local" min="2023-01-01T00:00">
                     <div class="error"></div>
                 </div>
                
@@ -70,14 +70,15 @@
             var eventname = document.querySelector('#eventname');
             var location = document.querySelector('#location');
             var time = document.querySelector('#time');
+            
 
             var submitBtn = document.querySelector('#submit')
   
             function submitForm(){
-                if(event.value !== null|| location.value !== null|| time.value!== null){
-                    var dbRef = ref(db, 'list/' + id);
-                   
-                    set(dbRef,{
+                
+                var dbRef = ref(db, 'list/' + id);
+                
+                set(dbRef,{
                     
                     Event: eventname.value,
                     Location: location.value,
@@ -90,10 +91,10 @@
                     alert(error);
                 });
                     document.getElementById('form').reset();
-                    
-                }
+                    id++;
                 
-                id++;
+                
+               
             }
             
             submitBtn.addEventListener('click', submitForm);
