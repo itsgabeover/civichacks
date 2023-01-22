@@ -157,8 +157,8 @@ a:link {
 
 img {
 
-    width: 10em;
-    height: 10em;
+    width: 12em;
+    height: 12em;
     object-fit: cover;
     margin: 2em;
 
@@ -167,6 +167,7 @@ img {
 p {
     text-align: center;
     text-decoration: underline;
+    font-size: larger;
     
 }
 
