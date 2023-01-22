@@ -161,6 +161,7 @@ img {
     height: 12em;
     object-fit: cover;
     margin: 2em;
+    border-radius: .5em;
 
 }
 
