@@ -1,7 +1,7 @@
 
 const form = document.getElementById('form');
 const eventname = document.getElementById('eventname');
-const location1= document.getElementById('location');
+const location1 = document.getElementById('location');
 const time = document.getElementById('time');
 
 
@@ -36,26 +36,25 @@ const validateInputs = () => {
     const eventnameValue = eventname.value.trim();
     const locationValue = location1.value.trim();
     const timeValue = time.value.trim();
-  
 
-    if(eventnameValue === '') {
+
+    if (eventnameValue === '') {
         setError(eventname, 'Event name is required');
     } else {
         setSuccess(eventname);
     }
 
-    if(locationValue === '') {
-        setError(location1, 'Location is required'); 
+    if (locationValue === '') {
+        setError(location1, 'Location is required');
     } else {
         setSuccess(location1);
     }
 
-    if(timeValue === '') {
+    if (timeValue === '') {
         setError(time, 'Event time is required');
- 
+
     } else {
         setSuccess(time);
     }
-
 
 };

@@ -1,4 +1,4 @@
-document.querySelector('button').addEventListener('click',hello)
+document.querySelector('button').addEventListener('click', hello)
 
 
 function hello() {
