@@ -29,3 +29,11 @@ nav ul div li a:hover {
     float: left;
     padding-left: 70px;
   }
+
+  body {
+
+    background-image: url(../img/busystreet.jpg);
+    background-size: cover;
+    object-fit: cover;
+
+  }
